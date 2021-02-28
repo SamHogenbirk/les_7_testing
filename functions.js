@@ -11,6 +11,18 @@ const functions = {
         };
         user['lastName'] = 'Traversy';
         return user;
+    },
+    addOne: function (numbers) {
+
+        return numbers.map((item) => item + 1)
+    },
+    getWordLengths: function (someWords) {
+
+        return someWords.map((item) => item.length)
+    },
+    findNeedle: function (words, string) {
+
+        return words.indexOf(string)
     }
 };
 

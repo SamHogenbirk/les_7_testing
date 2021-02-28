@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "author": "",
+  "chromium-args": "--enable-logging=stderr",
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.6.3"
